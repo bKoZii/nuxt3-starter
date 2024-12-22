@@ -1,0 +1,24 @@
+{
+  "name": "nuxt3-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/eslint": "0.7.4",
+    "@nuxt/ui": "^2.20.0",
+    "@types/eslint-plugin-tailwindcss": "^3.17.0",
+    "eslint": "^8.57.0 || ^9.0.0",
+    "eslint-plugin-jsonc": "^2.18.2",
+    "eslint-plugin-tailwindcss": "^3.17.5",
+    "nuxt": "^3.14.1592",
+    "typescript": "^5.7.2",
+    "vue": "latest"
+  }
+}
