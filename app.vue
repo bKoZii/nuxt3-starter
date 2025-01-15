@@ -22,7 +22,7 @@
         <h2 class="mb-3 font-bold">
           Learn More
         </h2>
-        <UButtonGroup>
+        <div class="flex flex-col flex-wrap gap-1 sm:flex-row">
           <UButton
             to="https://ui.nuxt.com"
             target="_blank"
@@ -49,7 +49,7 @@
           >
             Nuxt ESLint
           </UButton>
-        </UButtonGroup>
+        </div>
       </template>
     </UCard>
   </UContainer>
